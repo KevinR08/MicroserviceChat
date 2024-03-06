@@ -68,6 +68,6 @@ wss.on('connection', async (ws, req) => {
 });
 
 
-server.listen(4000, () => {
-    console.log('Servidor WebSocket en ejecución en el puerto 4000');
+server.listen(3500, () => {
+    console.log('Servidor WebSocket en ejecución en el puerto 3500');
   });
